@@ -1,0 +1,6 @@
+archive/arxiv-metadata-oai-snapshot.json : original json data
+arxiv.csv : json data converted into csv data
+deduplicated_arxiv.csv : removed few duplicated rows in the arxiv.csv
+preprocessed_csv.csv : 1st 1 million data are preprocessed
+first 1 million.csv: 1st 1 million data of preprocessed_csv.csv
+

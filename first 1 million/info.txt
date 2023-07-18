@@ -1,0 +1,5 @@
+df_with_label.csv : Multilabels converted into columns with binary data for classification
+train_data.csv : Training data from df_with_label.csv
+test_data.csv : Test data from df_with_label.csv
+label_name.pkl : Label Name List 
+tokenizer.pkl : Used for word tokenization trained on text of train_data.csv 
