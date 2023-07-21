@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Classifier = () => {
   const [formData, setFormData] = useState({
     abstract: "",
-    tag_no: "",
+    tag_no: 3,
   });
 
   const [predictionData, setPredictionData] = useState({});
@@ -86,7 +86,7 @@ const Classifier = () => {
               <div class="mb-3">
                 <textarea
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   id="abstract"
                   name="abstract"
                   placeholder="Write your abstract here..."
@@ -100,7 +100,7 @@ const Classifier = () => {
               </label>
               <input
                 type="number"
-                class="form-control"
+                className="form-control"
                 id="tag_no"
                 name="tag_no"
                 placeholder="Enter a number"
@@ -108,7 +108,7 @@ const Classifier = () => {
                 onChange={(e) => handleChange(e)}
               />
 
-              <button type="submit" className="form-control btn btn-success">
+              <button type="submit" className="form-control btn btn-success mt-4">
                 Predict
               </button>
             </form>
